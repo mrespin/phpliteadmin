@@ -1,5 +1,6 @@
 <?php
 echo "Welcome in phpLiteAdmin docker. \r\n";
+echo "<br>";
 echo "List of the contetnt of the local . folder.\r\n";
 echo "<br>";
 if ($handle = opendir('.')) 
