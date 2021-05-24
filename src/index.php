@@ -1,5 +1,5 @@
 <?php
-echo "List of the contetnt of the local . folder.\r\n"
+echo "List of the contetnt of the local . folder.\r\n";
 echo "<br>";
 if ($handle = opendir('.')) 
 {
@@ -11,7 +11,7 @@ if ($handle = opendir('.'))
     }
     closedir($handle);
 }
-echo "List of the contetnt of the /db folder.\r\n"
+echo "List of the contetnt of the /db folder.\r\n";
 echo "<br>";
 if ($handle = opendir('/db')) 
 {
