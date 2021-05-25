@@ -1,10 +1,10 @@
 <?php
-echo "Welcome in phpLiteAdmin docker. V0.1B ";
-echo "List of the contetnts of the /db folder.\r\n";
-echo "<br>";
+#echo "Welcome in phpLiteAdmin docker. V0.2 ";
+echo "/db contetnts: ";
+#echo "<br>";
 foreach (glob("/db/*.db") as $filename) {
     echo "$filename size " . filesize($filename) . "\n";
-    echo "<br>";
+    #echo "<br>";
 }
 include 'phpliteadmin.php';
 ?>
